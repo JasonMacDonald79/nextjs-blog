@@ -17,7 +17,7 @@ export default function Home({ allPostsData }) {
           <i>*This is a sample Next.js React website - you can learn to build a site like this on{' '} <a href="https://nextjs.org/learn">Next.js</a></i>
         <br />
       </section>
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+      <section className={`${utilStyles.lineSeperate} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (

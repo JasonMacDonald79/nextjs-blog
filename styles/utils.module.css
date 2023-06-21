@@ -25,6 +25,13 @@
     line-height: 1.5;
   }
   
+  .lineSeperate{
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-top: 15px;
+    border-top: 1px solid #a7a7a7;
+  }
+
   .borderCircle {
     border-radius: 9999px;
     border: 5px solid #000
