@@ -12,6 +12,8 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
+
+        Hi there
         <p>Hello, I'm <b>Jason</b> welcome to my blog! I am a software enginner that has worked in the industry for over 10 years. I have gained valuable experience from working at large fortune 500 companies to startups (and everything in between).
         I hope to be able to share some insights with you as I learn new front end technologies and frameworks! I am currently learning building <b>react apps using the Next.js framework.</b></p>
           <i>*This is a sample Next.js React website - you can learn to build a site like this on{' '} <a href="https://nextjs.org/learn">Next.js</a></i>
